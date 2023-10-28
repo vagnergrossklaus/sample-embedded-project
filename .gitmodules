@@ -1,0 +1,12 @@
+[submodule "sources/openembedded-core"]
+	path = sources/openembedded-core
+	url = https://github.com/openembedded/openembedded-core.git
+	branch = dunfell
+[submodule "sources/bitbake"]
+	path = sources/bitbake
+	url = https://github.com/openembedded/bitbake.git
+	branch = 1.46
+[submodule "sources/base"]
+	path = sources/base
+	url = https://github.com/OSSystemsEmbeddedLinux/ossystems-yocto-base-scripts.git
+	branch = dunfell
