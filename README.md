@@ -9,4 +9,12 @@ This is a sample embedded project created for study purposes
 - ossystems-yocto-base-scripts (https://github.com/OSSystemsEmbeddedLinux/ossystems-yocto-base-scripts.git)
 
 # Getting Started
-- WIP
+- Clone this repository
+- Enter in project directory 
+- Execute commands above: 
+
+```
+git submodule update --init
+source setup-environment build
+bitbake core-image-minimal
+```
